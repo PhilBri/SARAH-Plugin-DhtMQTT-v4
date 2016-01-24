@@ -1,0 +1,26 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice"  root="ruleDhtMQTT" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleDhtMQTT" scope="public">
+    <tag>out.action=new Object(); </tag>
+    
+    <item>Sarah</item> 
+
+    <one-of>
+      <item>Quelle est</item>
+      <item>Donne moi</item>
+      <item>Dis moi</item>
+    </one-of>
+    
+    <one-of>
+      <item>la température<tag>out.action.key="temperature"; out.action.tts="La température est de § degrés";</tag></item>
+      <item>l'humidité    <tag>out.action.key="humidity";    out.action.tts="Le taux d'humidité est de § %"; </tag></item>
+      <item>la batterie   <tag>out.action.key="voltage";     out.action.tts="La tension est de § volts";     </tag></item>
+    </one-of>
+    
+    <one-of>
+      <item>du salon</item>
+      <item>du module du salon</item>
+    </one-of>
+    
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/DhtMQTT";</tag>
+  </rule>
+</grammar>

@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "DhtMQTT"  : {
+      "description": "ESP8266 DHT22 sensor to MQTT",
+      "version": "v 4.1",
+      "room": "Salon",
+      "timer": "20000"
+    }
+  }
+}

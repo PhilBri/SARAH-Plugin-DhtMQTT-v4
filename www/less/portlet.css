@@ -1,0 +1,53 @@
+#DhtMQTT .portlet-header {
+  display: none;
+}
+#DhtMQTT .portlet-footer {
+  position: absolute;
+  bottom: 0;
+  background: transparent;
+}
+#DhtMQTT .portlet-footer .btn {
+  color: #C62817;
+  /*border-radius: 0px; border: 1px solid white;*/
+}
+#DhtMQTT .portlet-body {
+  height: 120px;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: white;
+}
+#DhtMQTT .logo {
+  background: #C62817;
+  /*background: #0054ff*/
+  padding: 5px;
+  /*background:  #00587F;*/
+  width: 40%;
+  height: 100%;
+  line-height: 100%;
+  float: left;
+  text-align: center;
+}
+#DhtMQTT .logo #Volt {
+  color: white;
+}
+#DhtMQTT .rooms {
+  padding-top: 4px;
+  width: 60%;
+  height: 25%;
+  float: left;
+  text-align: center;
+}
+#DhtMQTT .rooms .Where {
+  font-size: 18px;
+}
+#DhtMQTT .text {
+  padding-left: 8px;
+  width: 60%;
+  height: 75%;
+  float: left;
+  text-align: left;
+}
+#DhtMQTT .text #Temp,
+#DhtMQTT .text #Humi {
+  font-size: 30px;
+}

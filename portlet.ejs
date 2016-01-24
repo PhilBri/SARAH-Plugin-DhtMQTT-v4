@@ -1,0 +1,18 @@
+<% stylesheet ('/DhtMQTT/www/less/portlet.css'); %>
+<% script     ('/DhtMQTT/www/js/portlet.js'); %> 
+
+<script>
+    var tm = <%- plugin.config.timer %>;
+</script>
+
+<div class="logo portlet-handle">
+    <img src="/DhtMQTT/www/images/espressif.png"/>
+    <br/><p id="Volt"></p>
+</div>
+<div class="rooms">
+    <span class="Where"><%- plugin.config.room -%></span>
+</div>
+<div class="text">
+    <span id="Temp"></span>
+    <br/><span id="Humi"></span>
+</div>
