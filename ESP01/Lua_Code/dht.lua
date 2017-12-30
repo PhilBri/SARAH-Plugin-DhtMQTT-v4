@@ -3,8 +3,8 @@
 -- Constants
 BROKER   = "m20.cloudmqtt.com"
 BRPORT   = 19233
-BRUSER   = "fapfkdtc"
-BRPWD    = "MKMaGxGDNEZR"
+BRUSER   = "user"
+BRPWD    = "password"
 CLIENTID = "ESP-01"
 
 -- DHT code
